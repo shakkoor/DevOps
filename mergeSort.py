@@ -54,7 +54,7 @@ def merge(arr, l, m, r):
  
  
 def mergeSort(arr, l, r):
-    if l < r:
+    if l < r
  
         # Same as (l+r)//2, but avoids overflow for
         # large l and h
