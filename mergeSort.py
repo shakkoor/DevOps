@@ -61,7 +61,7 @@ def mergeSort(arr, l, r):
         m = l+(r-l)//2
  
         # Sort first and second halves
-        mergeSort(arr, l, m)
+        mergeSort(arr, l,)
         mergeSort(arr, m+1, r)
         merge(arr, l, m, r)
  
